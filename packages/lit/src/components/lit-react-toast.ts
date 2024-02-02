@@ -75,7 +75,7 @@ export class LitReactToast extends BaseElement {
           <div role="alert" data-id="${toast.id}" class="${classNames(toast.position, toast.type, toast.out && 'out')}">
             <span class="message">
               ${toast.message}
-              <button class="close-button"></button>
+              <button class="close-button" @click="${() => this.removeToast(toast.id)}"></button>
             </span>
           </div>
         `)}
