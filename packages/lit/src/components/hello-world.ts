@@ -3,7 +3,7 @@ import { customElement } from 'lit/decorators.js';
 import { BaseElement } from 'src/components/base-element';
 
 @customElement('hello-world')
-export class MyElement extends BaseElement {
+export class HelloWorld extends BaseElement {
   render() {
     return html`
       <h1>Lit Hello World!</h1>
@@ -13,6 +13,6 @@ export class MyElement extends BaseElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    'hello-world': MyElement
+    'hello-world': HelloWorld;
   }
 }
