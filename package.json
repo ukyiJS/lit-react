@@ -3,8 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "npx simple-git-hooks",
     "dev:react": "pnpm -F @lit-react-example/react dev",
-    "dev:lit": "pnpm -F @lit-react-example/lit dev"
+    "dev:lit": "pnpm -F @lit-react-example/lit dev",
+    "build:react": "pnpm -F @lit-react-example/react build",
+    "build:lit": "pnpm -F @lit-react-example/lit build",
+    "preview:react": "pnpm -F @lit-react-example/react preview",
+    "preview:lit": "pnpm -F @lit-react-example/lit preview",
+    "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --cache --fix --ignore-path .gitignore"
   },
   "devDependencies": {
     "@lit-react-example/shared": "file:shared",
@@ -12,7 +19,17 @@
     "@types/node": "^20.11.16",
     "eslint": "^8.56.0",
     "eslint-config-lit-react-example": "file:config/eslint",
+    "nano-staged": "^0.8.0",
+    "simple-git-hooks": "^2.9.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.12"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "./node_modules/.bin/nano-staged"
+  },
+  "nano-staged": {
+    "**/*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue}": [
+      "eslint --cache --fix"
+    ]
   }
 }
