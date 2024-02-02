@@ -7,6 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       src: fileURLToPath(new URL('./src', import.meta.url)),
+      '@lit-react-example/lit': fileURLToPath(new URL('../../packages/lit/dist', import.meta.url)),
     },
   },
 });
