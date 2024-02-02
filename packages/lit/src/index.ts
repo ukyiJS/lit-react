@@ -1,3 +1,2 @@
-import '@lit-react-example/shared/styles/base.css';
-
-import.meta.glob('./components/**/*.ts', { eager: true });
+export { LitReactButton } from './components/lit-react-button';
+export { LitReactToast } from './components/lit-react-toast';
