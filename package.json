@@ -1,0 +1,18 @@
+{
+  "name": "lit-react-example",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:react": "pnpm -F @lit-react-example/react dev",
+    "dev:lit": "pnpm -F @lit-react-example/lit dev"
+  },
+  "devDependencies": {
+    "@lit-react-example/shared": "file:shared",
+    "@lit-react-example/tsconfig": "file:config/tsconfig",
+    "@types/node": "^20.11.16",
+    "eslint": "^8.56.0",
+    "eslint-config-lit-react-example": "file:config/eslint",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  }
+}

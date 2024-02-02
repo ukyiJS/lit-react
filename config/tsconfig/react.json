@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "module": "ESNext",
+
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+
+    "jsx": "react-jsx",
+
+    "noImplicitThis": true,
+    "strict": true,
+
+    "verbatimModuleSyntax": true,
+
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "useDefineForClassFields": false,
+
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    "noEmit": true,
+
+    "strictPropertyInitialization": false
+  }
+}
