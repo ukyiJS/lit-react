@@ -9,5 +9,13 @@
   </head>
   <body>
     <hello-world></hello-world>
+    <lit-react-toast type="fail" duration="1500" position="bottom-center"></lit-react-toast>
+    <lit-react-button variant="primary">toast</lit-react-button>
+
+    <script>
+      document.querySelector('lit-react-button').addEventListener('click', () => {
+        document.querySelector('lit-react-toast').show('Hello world!');
+      });
+    </script>
   </body>
 </html>
