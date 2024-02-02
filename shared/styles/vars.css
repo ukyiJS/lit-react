@@ -1,0 +1,106 @@
+:root {
+  --success: #00ba8b;
+  --info: #70a2ff;
+  --fail: #fe5868d9;
+
+  --text: #15181e;
+  --text-sub: #717680;
+  --text-on: #fff;
+  --imweb-blue: #00b9ff;
+  --imweb-brown: #a65900;
+  --imweb-green: #008c00;
+  --imweb-mustard: #fa0;
+  --imweb-neon: #c8ff00;
+  --imweb-neon-green: #00e600;
+  --imweb-pink: #ff50da;
+  --imweb-purple: #a500e6;
+  --imweb-whtie: #fff;
+  --imweb-black: #000;
+
+  --text-primary: #1a6dff;
+  --text-secondary: #717680;
+  --text-secondary-hover: #9fa3ab;
+  --text-critical: #d34;
+  --text-disabled: #bcc0c6;
+
+  --action-primary: #1a6dff;
+  --action-primary-hover: #70a2ff;
+  --action-primary-pressed: #99bdff;
+  --action-secondary: #fff;
+  --action-secondary-hover: #f8f9fb;
+  --action-secondary-pressed: #e2e5e9;
+  --action-critical: #fe5868;
+  --action-critical-hover: #fea3ac;
+  --action-critical-pressed: #fecdd3;
+  --action-elevated: #15181e;
+  --action-elevated-hover: #15181e;
+  --action-elevated-pressed: #24282f;
+  --action-primaryTonal: #1a6dff1a;
+  --action-secondaryTonal: #7378821a;
+  --action-criticalTonal: #fe58681a;
+  --action-elevated-disabled: #73788226;
+
+  --black: #3b4859;
+  --light-grey-1: #f6f6f8;
+  --light-grey-2: #eee;
+  --primary: #1a6dff;
+  --white: #fff;
+  --icon-blue: #48f;
+
+  --border: #DBDEE3;
+
+  --space-0: 0;
+  --space-px: 1px;
+  --space-05: 2px;
+  --space-1: 4px;
+  --space-15: 6px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+
+  --rounded-none: 0;
+  --rounded-xsmall: 1px;
+  --rounded-small: 6px;
+  --rounded-base: 8px;
+  --rounded-medium: 8px;
+  --rounded-large: 12px;
+  --rounded-xlarge: 16px;
+  --rounded-full: 999999px;
+}
+.custom-72-bold { font-family: Pretendard, sans-serif; font-size: 72px; font-style: normal; font-weight: 700; line-height: 125%; }
+.heading-5xlarge-bold { font-family: Pretendard, sans-serif; font-size: 48px; font-style: normal; font-weight: 700; line-height: 60px; }
+.heading-4xlarge-bold { font-family: Pretendard, sans-serif; font-size: 36px; font-style: normal; font-weight: 700; line-height: 45px; }
+.heading-3xlarge-bold { font-family: Pretendard, sans-serif; font-size: 30px; font-style: normal; font-weight: 700; line-height: 37.5px; }
+.heading-2xlarge-bold { font-family: Pretendard, sans-serif; font-size: 24px; font-style: normal; font-weight: 700; line-height: 32px; }
+.heading-medium-bold { font-family: Pretendard, sans-serif; font-size: 16px; font-style: normal; font-weight: 700; line-height: 24px; }
+.body-3xlarge-bold { font-family: Imweb Sans, sans-serif; font-size: 30px; font-style: normal; font-weight: 600; line-height: 37.5px; }
+.body-2xlarge-bold { font-family: Imweb Sans, sans-serif; font-size: 24px; font-style: normal; font-weight: 600; line-height: 32px; }
+.body-xlarge-bold { font-family: Imweb Sans, sans-serif; font-size: 20px; font-style: normal; font-weight: 600; line-height: 28px; }
+.body-large-bold { font-family: Imweb Sans, sans-serif; font-size: 18px; font-style: normal; font-weight: 600; line-height: 28px; }
+.body-medium-bold { font-family: Imweb Sans, sans-serif; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px; }
+.body-small-bold { font-family: Imweb Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 600; line-height: 20px; }
+.body-3xlarge { font-family: Imweb Sans, sans-serif; font-size: 30px; font-style: normal; font-weight: 400; line-height: 37.5px; }
+.body-2xlarge { font-family: Imweb Sans, sans-serif; font-size: 24px; font-style: normal; font-weight: 400; line-height: 32px; }
+.body-xlarge { font-family: Imweb Sans, sans-serif; font-size: 20px; font-style: normal; font-weight: 400; line-height: 28px; }
+.body-large { font-family: Imweb Sans, sans-serif; font-size: 28px; font-style: normal; font-weight: 400; line-height: 28px; }
+.body-medium { font-family: Imweb Sans, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px; }
+.body-small { font-family: Imweb Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px; }
+.label-large { font-family: Pretendard, sans-serif; font-size: 18px; font-style: normal; font-weight: 400; line-height: 28px; }
+.label-medium { font-family: Pretendard, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px; }
+.label-small { font-family: Pretendard, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px; }
+@media (max-width: 1024px) {
+  .custom-72-bold.responsive { font-family: Pretendard, sans-serif; font-size: 36px; font-style: normal; font-weight: 700; line-height: 45px; }
+  .heading-5xlarge-bold.responsive { font-family: Pretendard, sans-serif; font-size: 24px; font-style: normal; font-weight: 700; line-height: 32px; }
+  .heading-3xlarge-bold.responsive { font-family: Pretendard, sans-serif; font-size: 24px; font-style: normal; font-weight: 700; line-height: 32px; }
+  .body-3xlarge.responsive { font-family: Imweb Sans, sans-serif; font-size: 28px; font-style: normal; font-weight: 400; line-height: 28px; }
+  .body-2xlarge.responsive { font-family: Imweb Sans, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; line-height: 24px; }
+  .body-xlarge.responsive { font-family: Imweb Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px; }
+  .body-3xlarge-bold.responsive { font-family: Imweb Sans, sans-serif; font-size: 18px; font-style: normal; font-weight: 600; line-height: 28px; }
+  .body-2xlarge-bold.responsive { font-family: Imweb Sans, sans-serif; font-size: 16px; font-style: normal; font-weight: 600; line-height: 24px; }
+  .body-xlarge-bold.responsive { font-family: Imweb Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 600; line-height: 20px; }
+  .body-large-bold.responsive { font-family: Imweb Sans, sans-serif; font-size: 14px; font-style: normal; font-weight: 600; line-height: 20px; }
+  .label-large.responsive { font-family: Pretendard, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; line-height: 20px; }
+}

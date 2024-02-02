@@ -1,8 +1,9 @@
-import { LitElement, html } from 'lit';
+import { css, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
+import { BaseElement } from 'src/components/base-element';
 
 @customElement('hello-world')
-export class MyElement extends LitElement {
+export class MyElement extends BaseElement {
   render() {
     return html`
       <h1>Lit Hello World!</h1>
